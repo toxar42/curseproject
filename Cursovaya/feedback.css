@@ -1,0 +1,152 @@
+header
+{
+    
+    background-image: url(body.jpg);
+    background-size: cover;
+    position:sticky;
+    z-index: 100;
+    top:0;
+    height: 100%;
+    width: 100%;
+    margin: 0 ;
+    padding: 0 ;
+}
+nav
+{
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+img.logo
+{   height:70px;
+    width: 10%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 50% 50% 50% 50% / 20% 20% 80% 80% ;
+    border: 3px solid green;
+    
+}
+
+.left-item
+{
+    float:left;
+}
+.right-item
+{   
+    float:right;
+}
+ul 
+{   
+    background-color: white;
+    font-family: segoe print;
+    font-size: 80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+a.menu
+{  
+    width: 150px;
+    cursor: url(menu.png), default;
+    text-decoration: none;
+    display: block;
+    line-height: 75px;
+    padding: 0;
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    transition: .9s linear;
+    text-align: center;
+}
+a.about
+{
+    width: 150px;
+    cursor: url(about.png), default;
+    text-decoration: none;
+    display: block;
+    line-height: 75px;
+    padding: 0;
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:white;
+    transition: .9s linear;
+    text-align: center;
+}
+a.gallery
+{  
+    width: 150px;
+    cursor: url(gallery.png), default;
+    text-decoration: none;
+    display: block;
+    line-height: 75px;
+    padding:0;
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:white;
+    transition: .9s linear;
+    text-align: center;
+}
+a.contact
+{   
+    width: 150px;
+    cursor: url(contacts.png), default;
+    text-decoration: none;
+    display: block;
+    line-height: 75px;
+    padding: 0;
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:white;
+    transition: .9s linear;
+    text-align: center;
+}
+a.news
+{
+    width: 150px;
+    cursor: url(news.png), default;
+    text-decoration: none;
+    display: block;
+    line-height: 75px;
+    padding: 0;
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:white;
+    transition: .9s linear;
+    text-align: center;
+}
+a.profile
+{
+    width: 150px;
+    cursor: url(profile.png), default;
+    text-decoration: none;
+    display: block;
+    line-height: 75px;
+    padding: 0;
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color:white;
+    transition: .9s linear;
+    text-align: center;
+}
+a:hover
+{
+    background:rgb(248, 174, 90);
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(menu.jpg); */
+    /* background-color: rgba(255, 192, 203, 0.499); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: url(cursor.png), default;
+    margin: 0;
+    padding: 0;
+}

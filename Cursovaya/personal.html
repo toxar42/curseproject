@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="curscss.css" type="text/css">
+</head>
+<body onload="dataView(db)">
+    <div class="header">
+        <div class="left">
+            <a class="menu" href="curs.html">Меню</a>
+            <a class="feedback" href="feedback.html">Отзывы</a>
+            <a class="about" href="about.html">Про нас</a>
+        </div>
+        <img class="logo" src="log.jpg">
+        <div class="right">
+            <a class="contact" href="contacts.html">Контакты</a>
+            <a class="facts" href="facts.html">Факты</a>
+            <a class="profile" href="profile.html"><u>Профиль</u></a>
+        </div>
+    </div>
+    <div class="bgprofile">
+        <div class="per_photo">
+            <img class="personal" src="about.png">
+        </div>
+        <h1 style="margin-bottom:30px;" >Профиль</h1>
+        <div class="string">
+        <div class="firstcard">
+            <table class="ins_table" id="base_zak">
+                <tr>
+                <td>ФИО</td>
+                <td>Телефон</td>
+                <td>Адрес</td>
+                <td>Метод оплаты</td>
+                <td>Метод доставки</td>
+                <td>Промокод</td>
+                <td>Подарочная упаковка</td>
+                <td>Комментарий</td>
+                </tr>
+                </table>
+                <button class="del_inf" onclick="dropTable()">Удалить данные заказов</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="base.js"></script>
+</body>
+</html>

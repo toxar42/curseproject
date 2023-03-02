@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="curscss.css" type="text/css">
+</head>
+<body>
+    <div class="header">
+      <div class="left">
+          <a class="menu" href="curs.html"><u>Меню</u></a>
+          <a class="feedback" href="feedback.html">Отзывы</a>
+          <a class="about" href="about.html">Про нас</a>
+      </div>
+      <img class="logo" src="log.jpg">
+      <div class="right">
+          <a class="contact" href="contacts.html">Контакты</a>
+          <a class="facts" href="facts.html">Факты</a>
+          <a class="profile" href="profile.html">Профиль</a>
+      </div>
+  </div>
+  <div class="filtr-menu"> 
+      <a class="type-filtr" href="drinks.html"><img class="filtr" src="drinks.png"></a>
+      <a class="type-filtr" href="chocolate.html"><img class="filtr" src="choco.png"></a>
+      <a class="type-filtr" href="boxes.html"><img class="filtr" src="box.png"></a>
+  </div>
+  
+  <button id="openDialog" class="shop_card"></button>
+    
+  <div class="menu" >
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="dr.pep.png"></div>
+          <div class="text-menu">Dr. Pepper 0,355л</div>
+          <p class="p_menu">129p</p>
+      <div class="count_card">
+      <form>
+          <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+          <input type="text" class="count" disabled value="0" name="out">
+          <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+      </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="CanadaDry.png"></div>
+          <div class="text-menu">Canada Dry Ginger Ale 0,330л</div>
+          <p class="p_menu">129p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="Fanta Exotic.png"></div>
+          <div class="text-menu">Fanta Exotic 0,330л</div>
+          <p class="p_menu">139p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="Fanta Lemon.png"></div>
+          <div class="text-menu">Fanta Lemon 0,330л</div>
+          <p class="p_menu">139p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+  </div>
+  <div class="menu">
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="Root Beer.png"></div>
+          <div class="text-menu">A&W Root Beer 0,355л</div>
+          <p class="p_menu">149p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="Fanta Peach.png"></div>
+          <div class="text-menu">Fanta Peach USA 0,355л</div>
+          <p class="p_menu">139p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+          <div class="img-menu"><img src="Fanta Straw.png"></div>
+          <div class="text-menu">Fanta Strawberry USA 0,355л</div>
+          <p class="p_menu">139p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="Fantaberry.png"></div>
+          <div class="text-menu">Fanta Berry USA 0,355л</div>
+          <p class="p_menu">139p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+  </div>
+  <div class="menu">
+      <div class="card">
+      <div class="img-menu"><img class="shop_img" src="toxicwa.png"></div>
+          <div class="text-menu">Toxic waste</div>
+          <p class="p_menu">249p</p>
+      <div class="count_card">
+      <form>
+          <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+          <input type="text" class="count" disabled value="0" name="out">
+          <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+      </form>
+      </div>
+      </div>
+      <div class="card">
+      <div class="img-menu"><img  src="luckycharms.png"></div>
+          <div class="text-menu">Lucky Charms с маршмеллоу 297 гр</div>
+          <p class="p_menu">629p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card">
+      <div class="img-menu"><img class="shop_img" src="jellybelly.png"></div>
+          <div class="text-menu">Jelly Belly Bean Boozled Game 100 гр</div>
+          <p class="p_menu">1129p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card">
+      <div class="img-menu"><img class="shop_img" src="wispa.png"></div>
+          <div class="text-menu">Cadbury Wispa 36 гр х 48</div>
+          <p class="p_menu">5999p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+  </div>
+  <div class="menu">
+      <div class="card">
+      <div class="img-menu"><img src="luckysoft.png"></div>
+          <div class="text-menu">Lucky Charms Soft Baked Bars 6 x 23г</div>
+          <p class="p_menu">749p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="giftbox.png"></div>
+          <div class="text-menu">Small box (3 drinks and 2 chocolates)</div>
+          <p class="p_menu">599p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+          <div class="img-menu"><img src="giftbox.png"></div>
+          <div class="text-menu">Medium box (6 drinks and 4 chocolates)</div>
+          <p class="p_menu">1129p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+      <div class="card" style="display:none">
+      <div class="img-menu"><img src="giftbox.png"></div>
+          <div class="text-menu">Big box (12 drinks and 10 chocolates)</div>
+          <p class="p_menu">2099p</p>
+      <div class="count_card">
+          <form>
+              <input type="button" class="button_menu" value="-" name="count-" onclick="out.value=(out.value <= 0) ? 0 : out.value=+out.value-1;">
+              <input type="text" class="count" disabled value="0" name="out">
+              <input type="button" class="button_menu" value="+" name="count+" onclick="out.value=+out.value+1">
+          </form>
+      </div>
+      </div>
+  </div>
+  
+  <dialog>
+    <div class="dia"></div>
+      <button id="closeDialog" class="close"></button>
+      <div class="dep_card">
+          <h1 class="about">Shopping card</h1>
+          <div class="menu_card">
+
+          </div>
+          <form class="loc_form">
+              <p class="p_card">Enter your Full Name</p>
+          <input class="ord_form" type="text"  name="full_name" required placeholder="Петров Петр Олегович">
+          <p class="p_card">Enter your E-mail or Number</p>
+          <input class="ord_form" type="text"  name="e-mail" required placeholder="+7(XXX)XXX-XX-XX">
+          <p class="p_card">Enter your Adress</p>
+          <input class="ord_form" type="text"  name="adress" required placeholder="Город,улица,дом">
+          <p class="p_card">Choose the payment method</p>
+          <select class="ord_sel">
+              <option>Cash payment</option>
+              <option>Cashless payment</option>
+              <option>Online</option>
+          </select>
+          <p class="p_card">Choose the delivery method</p>
+          <select class="ord_sel">
+              <option>Courier</option>
+              <option>Pickup</option>
+              <option>Post office</option>
+              <option>SDEK</option>
+          </select>
+          <p class="p_card">Enter promo</p>
+          <textarea class="prom"></textarea>
+          <p class="p_card">Select need a gift package</p>
+          <p class="p_card"><input type="radio" name="gift" checked>Yes
+          <input type="radio" name="gift">No </p>
+          <p class="p_card">Enter comment for courier</p>
+          <textarea class="prom"></textarea>
+          <button class="create">Create an order</button>
+          </form>
+      </div>
+  </dialog>
+  <script src="java.js"></script>
+</body>
+</html>
